@@ -1,0 +1,433 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.0.0"
+        }
+    ],
+    "resources": [
+        {
+            "description": "All page resources",
+            "strings": {
+                "pagesBackground": "https://i.ibb.co/DkFKxYb/155672619767084322-1.gif",
+                "pagesLogo": "",
+                "pagesHint": "Alexa, go to the main screen"
+            }
+        },
+        {
+            "description": "Page1 resources",
+            "strings": {
+                "page1Title": "Stem Cell Treatment",
+                "page1Text": "A stem cell transplant from another person can help treat certain types of cancer in a way other than just replacing stem cells. Donated cells can often find and kill cancer cells better than the immune cells of the person who had the cancer ever could. This is called the “graft-versus-cancer” or “graft-versus-leukemia” effect. It means that certain kinds of transplants actually help fight the cancer cells, rather than simply providing normal blood cells."
+            }
+        },
+        {
+            "description": "Page2 resources",
+            "strings": {
+                "page2Title": "Stem Cell Therapy",
+                "page2Text": "Stem cell therapy, also known as regenerative medicine, promotes the repair response of diseased, dysfunctional or injured tissue using stem cells or their derivatives. It is the next chapter in organ transplantation and uses cells instead of donor organs, which are limited in supply."
+            }
+        },
+        {
+            "description": "Page3 resources",
+            "strings": {
+                "page3Title": "Procedure Duration",
+                "page3Text": "Point-of-care (POC) cell therapy is a process of collecting, processing and administering the cells within one medical procedure. Usually it takes few hours (form 1-2 to 24) and highly depends on processing, type of cells and patient’s condition. "
+            }          
+        },
+        {
+            "description": "Stock color for the light theme",
+            "colors": {
+                "colorTextPrimary": "#151920"
+            }
+        },
+        {
+            "description": "Stock color for the dark theme",
+            "when": "${viewport.theme == 'dark'}",
+            "colors": {
+                "colorTextPrimary": "#f0f1ef"
+            }
+        },
+        {
+            "description": "Standard font sizes",
+            "dimensions": {
+                "textSizeBody": 48,
+                "textSizePrimary": 27,
+                "textSizeSecondary": 23,
+                "textSizeSecondaryHint": 25
+            }
+        },
+        {
+            "description": "Common spacing values",
+            "dimensions": {
+                "spacingThin": 6,
+                "spacingSmall": 12,
+                "spacingMedium": 24,
+                "spacingLarge": 48,
+                "spacingExtraLarge": 72
+            }
+        },
+        {
+            "description": "Common margins and padding",
+            "dimensions": {
+                "marginTop": 40,
+                "marginLeft": 60,
+                "marginRight": 60,
+                "marginBottom": 40
+            }
+        }
+    ],
+    "styles": {
+        "textStyleBase": {
+            "description": "Base font description; set color and core font family",
+            "values": [
+                {
+                    "color": "@colorTextPrimary",
+                    "fontFamily": "Amazon Ember"
+                }
+            ]
+        },
+        "textStyleBase0": {
+            "description": "Thin version of basic font",
+            "extend": "textStyleBase",
+            "values": {
+                "fontWeight": "100"
+            }
+        },
+        "textStyleBase1": {
+            "description": "Light version of basic font",
+            "extend": "textStyleBase",
+            "values": {
+                "fontWeight": "300"
+            }
+        },
+        "mixinBody": {
+            "values": {
+                "fontSize": "@textSizeBody"
+            }
+        },
+        "mixinPrimary": {
+            "values": {
+                "fontSize": "@textSizePrimary"
+            }
+        },
+        "mixinSecondary": {
+            "values": {
+                "fontSize": "@textSizeSecondary"
+            }
+        },
+        "textStylePrimary": {
+            "extend": [
+                "textStyleBase1",
+                "mixinPrimary"
+            ]
+        },
+        "textStyleSecondary": {
+            "extend": [
+                "textStyleBase0",
+                "mixinSecondary"
+            ]
+        },
+        "textStyleBody": {
+            "extend": [
+                "textStyleBase1",
+                "mixinBody"
+            ]
+        },
+        "textStyleSecondaryHint": {
+            "values": {
+                "fontFamily": "Bookerly",
+                "fontStyle": "italic",
+                "fontSize": "@textSizeSecondaryHint",
+                "color": "@colorTextPrimary"
+            }
+        }
+    },
+    "layouts": {
+        "Page1": {
+            "parameters": [
+                {
+                    "name": "hint",
+                    "type": "string"
+                }
+            ],
+            "items": [
+                {
+                    "when": "${viewport.shape == 'round'}",
+                    "type": "Container",
+                    "direction": "column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "@pagesBackground",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "scale": "best-fill"
+                        },
+                        {
+                            "type": "AlexaHeader",
+                            "headerTitle": "${payload.bodyTemplate1Data.title}",
+                            "headerAttributionImage": "@pagesBackground"
+                        },
+                        {
+                            "type": "Container",
+                            "grow": 1,
+                            "paddingLeft": "@marginLeft",
+                            "paddingRight": "@marginRight",
+                            "paddingBottom": "@marginBottom",
+                            "items": [
+                                {
+                                    "type": "Text",
+                                    "text": "@page1Text",
+                                    "fontSize": "@textSizeBody",
+                                    "spacing": "@spacingSmall",
+                                    "style": "textStyleBody"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "@pagesBackground",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "scale": "best-fill"
+                        },
+                        {
+                            "type": "AlexaHeader",
+                            "headerTitle": "@page1Title",
+                            "headerAttributionImage": "@pagesBackground"
+                        },
+                        {
+                            "type": "Container",
+                            "paddingLeft": "@marginLeft",
+                            "paddingRight": "@marginRight",
+                            "paddingBottom": "@marginBottom",
+                            "items": [
+                                {
+                                    "type": "Text",
+                                    "text": "@page1Text",
+                                    "fontSize": "@textSizeBody",
+                                    "spacing": "@spacingSmall",
+                                    "style": "textStyleBody"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "Page2": {
+            "parameters": [
+                {
+                    "name": "hint",
+                    "type": "string"
+                }
+            ],
+            "items": [
+                {
+                    "when": "${viewport.shape == 'round'}",
+                    "type": "Container",
+                    "direction": "column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "@pagesBackground",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "scale": "best-fill"
+                        },
+                        {
+                            "type": "AlexaHeader",
+                            "headerTitle": "${payload.bodyTemplate1Data.title}",
+                            "headerAttributionImage": "@pagesBackground"
+                        },
+                        {
+                            "type": "Container",
+                            "grow": 1,
+                            "paddingLeft": "@marginLeft",
+                            "paddingRight": "@marginRight",
+                            "paddingBottom": "@marginBottom",
+                            "items": [
+                                {
+                                    "type": "Text",
+                                    "text": "@page2Text",
+                                    "fontSize": "@textSizeBody",
+                                    "spacing": "@spacingSmall",
+                                    "style": "textStyleBody"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "@pagesBackground",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "scale": "best-fill"
+                        },
+                        {
+                            "type": "AlexaHeader",
+                            "headerTitle": "@page2Title",
+                            "headerAttributionImage": "@pagesBackground"
+                        },
+                        {
+                            "type": "Container",
+                            "paddingLeft": "@marginLeft",
+                            "paddingRight": "@marginRight",
+                            "paddingBottom": "@marginBottom",
+                            "items": [
+                                {
+                                    "type": "Text",
+                                    "text": "@page2Text",
+                                    "fontSize": "@textSizeBody",
+                                    "spacing": "@spacingSmall",
+                                    "style": "textStyleBody"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "Page3": {
+            "parameters": [
+                {
+                    "name": "hint",
+                    "type": "string"
+                }
+            ],
+            "items": [
+                {
+                    "when": "${viewport.shape == 'round'}",
+                    "type": "Container",
+                    "direction": "column",
+                    "paddingLeft": 50,
+                    "paddingRight": 30,
+                    "width": "100vw",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "@pagesBackground",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "scale": "best-fill"
+                        },
+                        {
+                            "type": "AlexaHeader",
+                            "headerTitle": "@page3Title",
+                            "headerAttributionImage": "@pagesLogo"
+                        },
+                        {
+                            "type": "Text",
+                            "text": "@page3Text",
+                            "size": "@textSizeBody",
+                            "style": "textStyleBody"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "width": "100vw",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "source": "@pagesBackground",
+                            "position": "absolute",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "scale": "best-fill"
+                        },
+                        {
+                            "type": "AlexaHeader",
+                            "headerTitle": "@page3Title",
+                            "headerAttributionImage": "@pagesLogo"
+                        },
+                        {
+                            "type": "Container",
+                            "height": "60vh",
+                            "width": "100vw",
+                            "paddingLeft": "@marginLeft",
+                            "paddingRight": "@marginRight",
+                            "paddingBottom": "@marginBottom",
+                            "items": [
+                                {
+                                    "type": "Text",
+                                    "text": "@page3Text",
+                                    "size": "@textSizeBody",
+                                    "spacing": "@spacingSmall",
+                                    "style": "textStyleBody"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "AlexaFooter",
+                            "footerHint": "${hint}"
+                        }
+                    ]
+                }
+            ]
+        },
+        "MyPager": {
+            "parameters": [
+                {
+                    "name": "hint",
+                    "type": "string"
+                }
+            ],
+            "items": [
+                {
+                    "type": "Pager",
+                    "id": "pagerComponentId",
+                    "width": "100vw",
+                    "height": "100vh",
+                    "items": [
+                        {
+                            "type": "Page1",
+                            "hint": "${hint}"
+                        },
+                        {
+                            "type": "Page2",
+                            "hint": "${hint}"
+                        },
+                        {
+                            "type": "Page3",
+                            "hint": "${hint}"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "MyPager",
+                "hint": "${payload.pagerTemplateData.properties.hintString}"
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.1ade9cef-65d7-4165-829a-a3ca87d0aaf8",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "a09758e51329224b0b7f5259a8449054"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "756686d593c408bf1bc6e69dec726ea7"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:517815965821:function:ask-custom-Phreesia-Digital-Asssistant-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-Phreesia-Digital-Asssistant-default",
+            "handler": "index.handler",
+            "revisionId": "9b043828-0826-4562-b984-11ab63569462",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}

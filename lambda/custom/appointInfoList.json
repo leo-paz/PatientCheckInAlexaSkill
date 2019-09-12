@@ -1,0 +1,112 @@
+{
+    "listTemplate1Metadata": {
+        "type": "object",
+        "objectId": "lt1Metadata",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "Appointment Info",
+        "logoUrl": ""
+    },
+    "listTemplate1ListData": {
+        "type": "list",
+        "listId": "lt1Sample",
+        "totalNumberOfItems": 4,
+        "listPage": {
+            "listItems": [
+                {
+                    "listItemIdentifier": "status",
+                    "ordinalNumber": 1,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Appointment Status"
+                        },
+                        "secondaryText": {
+                            "type": "PlainText",
+                            "text": "Alexa, get my appointment details"
+                        },
+                        "tertiaryText": {
+                            "type": "PlainText",
+                            "text": "Not Confirmed"
+                        }
+                    },
+                    "token": "status"
+                },
+                {
+                    "listItemIdentifier": "surveyPrompt",
+                    "ordinalNumber": 2,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Take a Survey"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "Alexa, take a survey"
+                        },
+                        "tertiaryText": {
+                            "type": "PlainText",
+                            "text": "Survey Pending"
+                        }
+                    },
+                    "token": "surveyPrompt"
+                },
+                {
+                    "listItemIdentifier": "surveyReminder",
+                    "ordinalNumber": 3,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Set Survey Reminder"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "Alexa, activate reminder"
+                        },
+                        "tertiaryText": {
+                            "type": "PlainText",
+                            "text": "Available"
+                        }
+                    },
+                    "token": "SurveyReminder"
+                },
+                {
+                    "listItemIdentifier": "DoctorInfo",
+                    "ordinalNumber": 3,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Know your Doctor"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "Alexa, get my doctor info"
+                        },
+                        "tertiaryText": {
+                            "type": "PlainText",
+                            "text": "Available"
+                        }
+                    },
+                    "token": "DoctorInfo"
+                }               
+            ]
+        }
+    }
+}

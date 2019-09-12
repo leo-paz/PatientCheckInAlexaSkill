@@ -1,0 +1,33 @@
+{
+    "bodyTemplate1Data": {
+        "type": "object",
+        "objectId": "bt1Sample",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://i.ibb.co/DkFKxYb/155672619767084322-1.gif",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://i.ibb.co/DkFKxYb/155672619767084322-1.gif",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "Stem Cell Treatment",
+        "textContent": {
+            "primaryText": {
+                "type": "PlainText",
+                "text": "A stem cell transplant from another person can help treat certain types of cancer in a way other than just replacing stem cells. Donated cells can often find and kill cancer cells better than the immune cells of the person who had the cancer ever could. This is called the “graft-versus-cancer” or “graft-versus-leukemia” effect. It means that certain kinds of transplants actually help fight the cancer cells, rather than simply providing normal blood cells."
+            }
+        },
+        "logoUrl": ""
+    }
+}

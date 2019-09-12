@@ -1,0 +1,61 @@
+{
+    "bodyTemplate2Data": {
+        "type": "object",
+        "objectId": "doctor",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "http://www.pptback.com/uploads/blue-wood--backgrounds-powerpoint.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "http://www.pptback.com/uploads/blue-wood--backgrounds-powerpoint.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "Doctor Info",
+        "image": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://thumbs.dreamstime.com/z/doctor-icon-logo-white-background-template-vector-97395631.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://thumbs.dreamstime.com/z/doctor-icon-logo-white-background-template-vector-97395631.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "textContent": {
+            "title": {
+                "type": "PlainText",
+                "text": "Dr. Reggiano"
+            },
+            "subtitle": {
+                "type": "PlainText",
+                "text": "Speciality: Endocrinologist"
+            },
+            "primaryText": {
+                "type": "PlainText",
+                "text": "\"My goal is to empower my patients to actively manage their health through lifestyle improvements, good eating and sleep habits, regular exercise and stress management. I am here to serve my patients in whatever way is best for them and their long-term health.\""
+            }
+        },
+        "logoUrl": "https://thumbs.dreamstime.com/z/doctor-icon-logo-white-background-template-vector-97395631.jpg",
+        "hintText": "Try, \"Alexa, give feedback to my doctor\""
+    }
+}

@@ -1,0 +1,55 @@
+{
+   "type":"Display.RenderTemplate",
+   "template":{
+      "type":"ListTemplate1",
+      "token":"list_template_two",
+      "title":"Insurance FAQ",
+      "listItems":[
+         {
+            "token":"type",
+            "textContent":{
+               "primaryText":{
+                  "type":"RichText",
+                  "text":"<font size='4'>Alexa, what type of insurance am I offered?</font>"
+               }
+            }
+         },
+         {
+            "token":"costs",
+            "textContent":{
+               "primaryText":{
+                  "type":"RichText",
+                  "text":"<font size='4'>Alexa, how can I lower my insurance costs?</font>"
+               }
+            }
+         },
+         {
+            "token":"cover",
+            "textContent":{
+               "primaryText":{
+                  "type":"RichText",
+                  "text":"<font size='4'>Alexa, do I have enough insurance to cover?</font>"
+               }
+            }
+         },
+         {
+            "token":"deductible",
+            "textContent":{
+               "primaryText":{
+                  "type":"RichText",
+                  "text":"<font size='4'>Alexa, what is a deductible?</font>"
+               }
+            }
+         },
+         {
+            "token":"required",
+            "textContent":{
+               "primaryText":{
+                  "type":"RichText",
+                  "text":"<font size='4'>Alexa, is health insurance required?</font>"
+               }
+            }
+         }
+      ]
+   }
+}

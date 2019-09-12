@@ -1,0 +1,188 @@
+{
+    "listTemplate1Metadata": {
+        "type": "object",
+        "objectId": "lt1Metadata",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "What would you like to know?",
+        "logoUrl": ""
+    },
+    "listTemplate1ListData": {
+        "type": "list",
+        "listId": "lt1Sample",
+        "totalNumberOfItems": 4,
+        "listPage": {
+            "listItems": [
+                {
+                    "listItemIdentifier": "procedure",
+                    "ordinalNumber": 1,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Procedure Info"
+                        },
+                        "secondaryText": {
+                            "type": "PlainText",
+                            "text": "Alexa, tell me about my procedure"
+                        },
+                        "tertiaryText": {
+                            "type": "PlainText",
+                            "text": ""
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://www.cancer.org/content/cancer/en/treatment/understanding-your-diagnosis/_jcr_content/par/section/parsys/responsive_columns/column-1/sub_link_list_2_copy/image.img.jpg/1494429188936.jpg",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://www.cancer.org/content/cancer/en/treatment/understanding-your-diagnosis/_jcr_content/par/section/parsys/responsive_columns/column-1/sub_link_list_2_copy/image.img.jpg/1494429188936.jpg",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "procedure"
+                },
+                {
+                    "listItemIdentifier": "recovery",
+                    "ordinalNumber": 2,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "During and After Treatment"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "Alexa, give me some treatment tips"
+                        },
+                        "tertiaryText": {
+                            "type": "PlainText",
+                            "text": ""
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://www.cancer.org/content/cancer/en/treatment/understanding-your-diagnosis/_jcr_content/par/section/parsys/responsive_columns/column-2/sub_link_list_7_copy/image.img.jpg/1494426523690.jpg",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://www.cancer.org/content/cancer/en/treatment/understanding-your-diagnosis/_jcr_content/par/section/parsys/responsive_columns/column-2/sub_link_list_7_copy/image.img.jpg/1494426523690.jpg",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "recovery"
+                },
+                {
+                    "listItemIdentifier": "effect",
+                    "ordinalNumber": 3,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Treatments and Side Effects"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "Alexa, tell me about side effects"
+                        },
+                        "tertiaryText": {
+                            "type": "PlainText",
+                            "text": ""
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://www.congareepharmacy.com/wp-content/uploads/2017/03/side-effects-of-Nuedexta-300x300.jpg",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://www.congareepharmacy.com/wp-content/uploads/2017/03/side-effects-of-Nuedexta-300x300.jpg",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "effect"
+                },
+                {
+                    "listItemIdentifier": "effect",
+                    "ordinalNumber": 3,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "Alternative Medicine"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "Alexa, tell me about alternative medicine"
+                        },
+                        "tertiaryText": {
+                            "type": "PlainText",
+                            "text": ""
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://www.fraserinstitute.org/sites/default/files/styles/large/public/complementary-and-alternative-medicine-2017.jpg?itok=vVUSYZ67",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://www.fraserinstitute.org/sites/default/files/styles/large/public/complementary-and-alternative-medicine-2017.jpg?itok=vVUSYZ67",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "effect"
+                }               
+            ]
+        }
+    }
+}

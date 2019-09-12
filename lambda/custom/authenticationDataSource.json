@@ -1,0 +1,52 @@
+{
+    "bodyTemplate6Data": {
+        "type": "object",
+        "objectId": "bt6Sample",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://i.ibb.co/fQXSdX8/15553616494523783.gif",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://i.ibb.co/fQXSdX8/15553616494523783.gif",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "image": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://i.ibb.co/fQXSdX8/15553616494523783.gif",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://i.ibb.co/fQXSdX8/15553616494523783.gif",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "textContent": {
+            "primaryText": {
+                "type": "PlainText",
+                "text": "Welcome to Phreesia Digital Assistant"
+            }
+        },
+        "logoUrl": "",
+        "hintText": "Say, \"Alexa, authenticate me\""
+    }
+}

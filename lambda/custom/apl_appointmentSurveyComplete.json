@@ -1,0 +1,37 @@
+{
+    "type":"Display.RenderTemplate",
+    "template":{
+       "type":"ListTemplate1",
+       "token":"list_template_two",
+       "title":"appointmentSurveyComplete",
+       "listItems":[
+          {
+             "token":"status",
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>Alexa, get my appointment status</font>"
+                }
+             }
+          },
+          {
+             "token":"review survey",
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>Alexa, review my survey</font>"
+                }
+             }
+          },
+          {
+             "token":"doctor info",
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>Alexa, get my doctor info</font>"
+                }
+             }
+          }
+       ]
+    }
+ }

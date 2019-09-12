@@ -1,0 +1,203 @@
+{
+    "type":"Display.RenderTemplate",
+    "template":{
+    "listTemplate1Metadata": {
+        "type": "object",
+        "objectId": "lt1Metadata",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/LT1_Background.png",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/LT1_Background.png",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "Insurance FAQ",
+        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png"
+    },
+    "listTemplate1ListData": {
+        "type": "list",
+        "listId": "lt1Sample",
+        "totalNumberOfItems": 10,
+        "listPage": {
+            
+            "listItems": [
+                {
+        
+                        "listItemIdentifier": "1",
+                        "ordinalNumber": 1,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "text": "What type of insurance am I offered?"
+                            }
+                        },
+                        "image": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/sm_gouda.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/sm_gouda.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "token": "type"
+                    },
+       
+                {
+                    
+                        "listItemIdentifier": "2",
+                        "ordinalNumber": 2,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "text": "How can I lower my insurance costs?"
+                            }
+                        },
+                        "image": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/sm_cheddar.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/sm_cheddar.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "token": "costs"
+                    },
+           
+                {
+               
+                    
+                        "listItemIdentifier": "3",
+                        "ordinalNumber": 3,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "text": "Do I have enough insurance to cover?"
+                            }
+                        },
+                        "image": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/sm_blue.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/sm_blue.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "token": "cover"
+                    },
+     
+       
+                {
+                    
+                 
+                        "listItemIdentifier": "4",
+                        "ordinalNumber": 4,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "text": "What is a deductible?"
+                            }
+                        },
+                        "image": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/sm_brie.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/sm_brie.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "token": "deductible"
+                    },
+         
+                {
+                    
+                        "listItemIdentifier": "5",
+                        "ordinalNumber": 5,
+                        "textContent": {
+                            "primaryText": {
+                                "type": "PlainText",
+                                "text": "Is health insurance required?"
+                            }
+                        },
+                        "image": {
+                            "contentDescription": null,
+                            "smallSourceUrl": null,
+                            "largeSourceUrl": null,
+                            "sources": [
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/sm_cheddar.png",
+                                    "size": "small",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                },
+                                {
+                                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/sm_cheddar.png",
+                                    "size": "large",
+                                    "widthPixels": 0,
+                                    "heightPixels": 0
+                                }
+                            ]
+                        },
+                        "token": "required"
+                    }
+                
+            ]
+        }
+    }
+    }
+}

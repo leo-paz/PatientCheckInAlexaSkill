@@ -1,0 +1,110 @@
+{
+    "type":"Display.RenderTemplate",
+    "template":{
+       "type":"ListTemplate1",
+       "token":"list_template_two",
+       "title":"what would you like to know?",
+       "listItems":[
+          {
+             "token":"procedure",
+             "image":{
+                "sources":[
+                   {
+                      "url":"https://www.cancer.org/content/cancer/en/treatment/understanding-your-diagnosis/_jcr_content/par/section/parsys/responsive_columns/column-1/sub_link_list_2_copy/image.img.jpg/1494429188936.jpg"
+                   }
+                ],
+                "contentDescription":"Procedure Info"
+             },
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='6'>Procedure Info</font>"
+                },
+                "secondaryText":{
+                   "text":"Alexa, get my procedure Info",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          },
+          {
+             "token":"recovery",
+             "image":{
+                "sources":[
+                   {
+                      "url":"https://www.cancer.org/content/cancer/en/treatment/understanding-your-diagnosis/_jcr_content/par/section/parsys/responsive_columns/column-2/sub_link_list_7_copy/image.img.jpg/1494426523690.jpg"
+                   }
+                ],
+                "contentDescription":"recovery"
+             },
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='6'>During and After Treatment</font>"
+                },
+                "secondaryText":{
+                   "text":"Alexa, give me some treatment tips",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          },
+          {
+             "token":"effect",
+             "image":{
+                "sources":[
+                   {
+                      "url":"https://www.congareepharmacy.com/wp-content/uploads/2017/03/side-effects-of-Nuedexta-300x300.jpg"
+                   }
+                ],
+                "contentDescription":"effect"
+             },
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='6'>Treatment and Side Effects</font>"
+                },
+                "secondaryText":{
+                   "text":"Alexa, tell me about side effects",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          },
+          {
+             "token":"alternative",
+             "image":{
+                "sources":[
+                   {
+                      "url":"https://www.fraserinstitute.org/sites/default/files/styles/large/public/complementary-and-alternative-medicine-2017.jpg?itok=vVUSYZ67"
+                   }
+                ],
+                "contentDescription":"alternative"
+             },
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='6'>Alternative Medicine</font>"
+                },
+                "secondaryText":{
+                   "text":"Alexa, tell me about alternative medicine",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          }
+       ]
+    }
+ }

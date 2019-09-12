@@ -1,0 +1,787 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "phreesia digital assistant",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Authenticate",
+                    "slots": [
+                        {
+                            "name": "OTP",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER",
+                            "samples": [
+                                "{OTP}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "authenticate "
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "failAuthentication",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "passAuthentication",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "searchTerm",
+                    "slots": [
+                        {
+                            "name": "term",
+                            "type": "AMAZON.SearchQuery",
+                            "samples": [
+                                "define {term}",
+                                "search {term}",
+                                "{term}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "define",
+                        "search {term}"
+                    ]
+                },
+                {
+                    "name": "Reason",
+                    "slots": [
+                        {
+                            "name": "reasoning",
+                            "type": "Disease",
+                            "samples": [
+                                "I'm in today because {reasoning}",
+                                "{reasoning}"
+                            ]
+                        }
+                    ],
+                    "samples": []
+                },
+                {
+                    "name": "additionalInfo",
+                    "slots": [
+                        {
+                            "name": "info",
+                            "type": "AMAZON.SearchQuery",
+                            "samples": [
+                                "{info}"
+                            ]
+                        }
+                    ],
+                    "samples": []
+                },
+                {
+                    "name": "startSurvey",
+                    "slots": [],
+                    "samples": [
+                        "update my survey",
+                        "take a survey",
+                        "Start Survey"
+                    ]
+                },
+                {
+                    "name": "setReminder",
+                    "slots": [],
+                    "samples": [
+                        "activate reminder"
+                    ]
+                },
+                {
+                    "name": "sendEvent",
+                    "slots": [],
+                    "samples": [
+                        "send event"
+                    ]
+                },
+                {
+                    "name": "treatment",
+                    "slots": [],
+                    "samples": [
+                        "get my treatment info"
+                    ]
+                },
+                {
+                    "name": "insuranceType",
+                    "slots": [],
+                    "samples": [
+                        "What type of insurance am I offered"
+                    ]
+                },
+                {
+                    "name": "insuranceCosts",
+                    "slots": [],
+                    "samples": [
+                        "how can I lower my insurance costs"
+                    ]
+                },
+                {
+                    "name": "insuranceCover",
+                    "slots": [],
+                    "samples": [
+                        "do I have enough insurance to cover"
+                    ]
+                },
+                {
+                    "name": "insuranceDeductible",
+                    "slots": [],
+                    "samples": [
+                        "What is a deductible"
+                    ]
+                },
+                {
+                    "name": "insuranceRequired",
+                    "slots": [],
+                    "samples": [
+                        "Is health insurance required"
+                    ]
+                },
+                {
+                    "name": "goHome",
+                    "slots": [],
+                    "samples": [
+                        "main screen",
+                        "go to the main screen",
+                        "go to main screen"
+                    ]
+                },
+                {
+                    "name": "previous",
+                    "slots": [],
+                    "samples": [
+                        "go back"
+                    ]
+                },
+                {
+                    "name": "goBack",
+                    "slots": [],
+                    "samples": [
+                        "go back"
+                    ]
+                },
+                {
+                    "name": "goodBye",
+                    "slots": [],
+                    "samples": [
+                        "good bye"
+                    ]
+                },
+                {
+                    "name": "NonVoiceDocInfo",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "billing",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "directAuthentication",
+                    "slots": [
+                        {
+                            "name": "password",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{password}"
+                    ]
+                },
+                {
+                    "name": "procedure",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "vocalProcedure",
+                    "slots": [],
+                    "samples": [
+                        "get my procedure information",
+                        "get my procedure info"
+                    ]
+                },
+                {
+                    "name": "DocInfo",
+                    "slots": [],
+                    "samples": [
+                        "get my doc info",
+                        "get my doctor information"
+                    ]
+                },
+                {
+                    "name": "duration",
+                    "slots": [
+                        {
+                            "name": "length",
+                            "type": "AMAZON.DURATION",
+                            "samples": [
+                                "For {length}",
+                                "{length}"
+                            ]
+                        }
+                    ],
+                    "samples": []
+                },
+                {
+                    "name": "Feeling",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "summarySurvey",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "sampleAppointment",
+                    "slots": [],
+                    "samples": [
+                        "get appointment"
+                    ]
+                },
+                {
+                    "name": "appointmentInfo",
+                    "slots": [],
+                    "samples": [
+                        "Get my appointment status",
+                        "Get Appointment Status",
+                        "show my appointment",
+                        "tell me about my visit",
+                        "show my visit information",
+                        "show my status"
+                    ]
+                },
+                {
+                    "name": "reviewSurvey",
+                    "slots": [],
+                    "samples": [
+                        "review my survey"
+                    ]
+                },
+                {
+                    "name": "concern",
+                    "slots": [
+                        {
+                            "name": "concernLevel",
+                            "type": "concernLevel"
+                        }
+                    ],
+                    "samples": [
+                        "{concernLevel} concern"
+                    ]
+                },
+                {
+                    "name": "SummarySurveyScreen",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "SurveyPost",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "appointmentInfoNonVoice",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AptNonVoiceNonSurvey",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AptNonVoiceSurveyTaken",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "appointmentDetails",
+                    "slots": [],
+                    "samples": [
+                        "get my appointment details"
+                    ]
+                },
+                {
+                    "name": "cancelAppointment",
+                    "slots": [],
+                    "samples": [
+                        "request cancellation",
+                        "delete my appointment",
+                        "cancel my appointment"
+                    ]
+                },
+                {
+                    "name": "AptDetailsNonVoiceNonSurvey",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "AptDetailsSurveyTaken",
+                    "slots": [],
+                    "samples": []
+                },
+                {
+                    "name": "Ratingonetofive",
+                    "slots": [
+                        {
+                            "name": "star",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Rating of {star}"
+                    ]
+                },
+                {
+                    "name": "DocRating",
+                    "slots": [],
+                    "samples": [
+                        "rate my experience",
+                        "give feedback to my doctor",
+                        "rate my doctor"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Disease",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "difficulty breathing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "drowsiness"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "muscle weakness"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "blurred vision"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hypotension"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "itchiness"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "loss of appetite"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dizziness"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "low blood pressure"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "light-headedness"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "constipation"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "muscle spasms"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "abdominal pain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nausea"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "muscle pain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "headaches"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shortness of breath"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "joint pain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vomiting"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sore throat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "injury"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chestpain"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "headache"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fever"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cold"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "concernLevel",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "high"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "low"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "moderate"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "Authenticate",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "OTP",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.976233823778.1413754451210"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "searchTerm",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "term",
+                            "type": "AMAZON.SearchQuery",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1012257120437.852509194679"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Reason",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "reasoning",
+                            "type": "Disease",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.803610482182.594598767800"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "additionalInfo",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "info",
+                            "type": "AMAZON.SearchQuery",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1145600165842.1432757870515"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "duration",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "length",
+                            "type": "AMAZON.DURATION",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1502824032395.105600819634"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Feeling",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": []
+                },
+                {
+                    "name": "Ratingonetofive",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "star",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {},
+                            "validations": [
+                                {
+                                    "type": "isInSet",
+                                    "prompt": "Slot.Validation.727098137840.213339880165.248245529392",
+                                    "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Confirm.Intent.24342918723",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Did you say {OTP} ?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.24342918723.1343776115499",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "To proceed with the authentication please provide your OTP"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.976233823778.1413754451210",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please provide OTP to proceed"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1012257120437.852509194679",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What word do you want to search?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1145600165842.1432757870515",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Do you have additional notes, if not say none"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.522637772989.1158383630506",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "On a scale of one to five how did we perform?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.803610482182.594598767800",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What brings you in today?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1502824032395.105600819634",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "How long have you been affected by the symptoms?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.1510501532310.1148542209216.1027586179043",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "That is not an acceptable concern level. Try saying either Low, Moderate or High"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.189296379797.617492552092.1308527351120",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Acceptable answer is either High, Moderate or low"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.189296379797.617492552092",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "what is your level of concern"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.727098137840.213339880165.248245529392",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "You can only rate between a scale of one to five"
+                    }
+                ]
+            }
+        ]
+    }
+}

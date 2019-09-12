@@ -1,0 +1,61 @@
+{
+    "type":"Display.RenderTemplate",
+    "template":{
+       "type":"ListTemplate1",
+       "token":"level_of_concern",
+       "title":"Rate your level of concern",
+       "listItems":[
+          {
+             "token":"Low",
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>Low</font>"
+                },
+                "secondaryText":{
+                   "text":"Just say, Low Concern",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          },
+          {
+             "token":"Moderate",
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>Moderate</font>"
+                },
+                "secondaryText":{
+                   "text":"Just say, Moderate Concern",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          },
+          {
+             "token":"High",
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>High</font>"
+                },
+                "secondaryText":{
+                   "text":"Just say, High Concern",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          }
+       ]
+    }
+ }

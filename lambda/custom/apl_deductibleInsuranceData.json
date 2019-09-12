@@ -1,0 +1,33 @@
+{
+    "bodyTemplate1Data": {
+        "type": "object",
+        "objectId": "bt1Sample",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT1_Background.png",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://d2o906d8ln7ui1.cloudfront.net/images/BT1_Background.png",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "What is a Deductible",
+        "textContent": {
+            "primaryText": {
+                "type": "PlainText",
+                "text": "A deductible is the portion you are responsible for paying in the event of a claim. For example, if your car insurance policy has a $1,000 deductible for collision and there are $5,000 in damages, you will pay the first $1,000 and the insurance company will pay the remaining $4,000"
+            }
+        },
+        "logoUrl": "https://d2o906d8ln7ui1.cloudfront.net/images/cheeseskillicon.png"
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "type":"Display.RenderTemplate",
+    "template":{
+       "type":"ListTemplate1",
+       "token":"list_template_two",
+       "title":"Rate your experience",
+       "listItems":[
+          {
+             "token":"item_1",
+             "image":{
+                "sources":[
+                   {
+                      "url":"https://cdn.shopify.com/s/files/1/1061/1924/products/Super_Angry_Face_Emoji_ios10_large.png?v=1542436021"
+                   }
+                ],
+                "contentDescription":"Very Unsatisfied"
+             },
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>Very Unsatisfied</font>"
+                },
+                "secondaryText":{
+                   "text":"Just say, Rating of 1",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          },
+          {
+             "token":"item_2",
+             "image":{
+                "sources":[
+                   {
+                      "url":"https://images.ecosia.org/OTl6oMtRD_CJrwRG7TyyTR8SdWY=/0x390/smart/https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2Foriginals%2F32%2F3e%2F3b%2F323e3b47f07fa1fb0a4b2ecb03b2c965.png"
+                   }
+                ],
+                "contentDescription":"Unsatisfied"
+             },
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>Unsatisfied</font>"
+                },
+                "secondaryText":{
+                   "text":"Just say, Rating of 2",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          },
+          {
+             "token":"item_3",
+             "image":{
+                "sources":[
+                   {
+                      "url":"https://cdn.shopify.com/s/files/1/1061/1924/products/Neutral_Face_Emoji_large.png?v=14804810549"
+                   }
+                ],
+                "contentDescription":"Neutral"
+             },
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>Neutral</font>"
+                },
+                "secondaryText":{
+                   "text":"Just say, Rating of 3",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          },
+          {
+             "token":"item_4",
+             "image":{
+                "sources":[
+                   {
+                      "url":"https://cdn.shopify.com/s/files/1/1061/1924/products/Slightly_Smiling_Face_Emoji_87fdae9b-b2af-4619-a37f-e484c5e2e7a4_grande.png?v=1480481059"
+                   }
+                ],
+                "contentDescription":"Satisfied"
+             },
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>Satisfied</font>"
+                },
+                "secondaryText":{
+                   "text":"Just say, Rating of 4",
+                   "type":"PlainText"
+                },
+                "tertiaryText":{
+                   "text":"",
+                   "type":"PlainText"
+                }
+             }
+          },
+          {
+             "token":"item_5",
+             "image":{
+                "sources":[
+                   {
+                      "url":"https://cdn.shopify.com/s/files/1/1061/1924/products/Smiling_Face_Emoji_large.png?v=1480481056"
+                   }
+                ],
+                "contentDescription":"Very Satisfied"
+             },
+             "textContent":{
+                "primaryText":{
+                   "type":"RichText",
+                   "text":"<font size='4'>Very Satisfied</font>"
+                },
+                "secondaryText":{
+                   "type":"PlainText",
+                   "text":"Just say, Rating of 5"
+                },
+                "tertiaryText":{
+                   "type":"PlainText",
+                   "text":""
+                }
+             }
+          }
+       ]
+    }
+ }
